@@ -1,0 +1,109 @@
+body {
+    background-color: #D7F1F6;
+    margin: 0;
+}
+
+h1 {
+    font-size: 78px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Russo one";
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+    font-family: "Oswald"
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    font-size: 24px;
+}
+
+.input-section label {
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.input-section input[type="number"],
+.input-section input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.input-section button {
+    padding: 10px 20px;
+    background-color: rgb(60, 184, 159);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.expenses-list {
+    margin-left: 100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+
+}
+
+th {
+    background-color: #5494da;
+    color: white;
+    font-size: 25px;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.icon {
+    display: block;
+    width: 5%;
+}
+
+select#category-select option[value="Food"] {
+    background-image: "/Users/ashika/Downloads/food-icon.png";
+}
+
+select#category-select option[value="Rent"] {
+    background-image: "/Users/ashika/Downloads/rent-icon.png";
+}
+
+select#category-select option[value="Utilities"] {
+    background-image: "/Users/ashika/Downloads/power-icon.png";
+}
